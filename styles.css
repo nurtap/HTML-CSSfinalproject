@@ -1,0 +1,363 @@
+* {
+  box-sizing: border-box;
+  transition:  0.2s ease;
+
+}
+html { font-size: 62,5%;
+overflow-x: hidden;
+scroll-padding-top:9 rem;
+scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: #fdf8f2;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+a { 
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #65a37e;
+}
+header {
+  display: flex;
+  align-items: center;
+  height: 10.8rem;
+  justify-content: space-around;
+  background-color: rgb(241, 248, 237);
+}
+
+ul {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+.logo {
+ height: 5rem;
+}
+
+.nav-link {
+  font-size: 18px;
+  line-height: 28px;
+}
+#menu-btn {
+  display: none;
+  border-style: none;
+}
+#menu-btn:hover {
+  color: #65a37e;
+}
+#btn {
+ color:rgb(17, 16, 32);
+ background-color:  #10b5e2; 
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor:pointer;
+  border-color:#10b5e2;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  
+}
+#btn:hover {
+  background-color:  #c5ddcf;
+  color: rgb(12, 20, 25);
+  border-color:#c5ddcf;
+}
+#anasayfa {
+  height: 40rem;
+  background-image: url("https://images.unsplash.com/photo-1522898467493-49726bf28798?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#black {
+  height: 40rem;
+  background-color: black;
+  opacity: 30%;
+}
+#content {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: rgb(241, 248, 237);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#h2yazi {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 0;
+  color: rgb(241, 248, 237);
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.img-fluid, .img-fluidh{
+  max-width: 100%;
+  height: 30rem;
+  margin-top: 5rem;
+}
+.img-fluidh {
+  padding-right: 2.8rem;
+  border-radius: 50%;
+}
+
+#about {
+  background-color: #fdf8f2;
+  padding: 2.5rem;
+  text-align: center;
+  font-size: 600;
+  height: 50rem;
+
+}
+@media screen and (max-width: 700px) {
+  #about {
+    height: 80rem;
+  }
+  
+}
+/* Icould not make the height of the about section responsive. I tried to use media query but it did not work. */
+
+    
+h1 {
+  font-size: 3rem;
+  line-height: 5.6rem;
+  color: #1b73ba;
+}
+.container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.left {
+  float: left;
+  border-right: 3px solid #fdf8f2;
+  width: 25%;
+  color: rgb(95, 193, 198);
+  margin-top: 3rem;
+}
+.h3left {
+  font-size:2rem;
+  line-height: 1.6;
+  font-weight: 600;
+}
+.h3left,
+.right {
+  margin: 0;
+  padding: 0;
+  margin-top: 1rem;
+}
+.right,.plast {
+  
+  color: #767070;
+  
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-weight: 400;
+}
+p{ color: #767070;
+  line-height: 1.6; 
+}
+.fp {
+  color:#fff;
+}
+.ap { color: #121314;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.right {float: right;
+  width: 65%;
+  text-align: center;
+  }
+
+footer {
+  background-color: #1b73ba;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-weight: 400;
+
+}
+
+#green {
+  margin: 0;
+  height: 12.5rem;
+  background-color: rgb(179, 207, 168);
+}
+
+#picture {
+  width: 20rem;
+  height: 12.5rem;
+  margin-top: 0;
+  float: right;
+}
+#pictureh {
+  width: 20rem;
+  height: 13.5rem;
+  margin-top: 0;
+  border-radius: 10%;
+ margin-bottom: 1.5rem;
+}
+
+
+
+#iletisim {
+  background-image: url("https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  text-align: center;
+  height:73rem;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 2.5rem;
+}
+#h3iletisim {
+  color: rgb(9, 12, 14);
+  font-size:3rem;
+
+}
+#iletisimopak {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+  height: 40rem;
+}
+#formgroup {
+  width: 50rem;
+  float: left;
+  height:40rem;
+  text-align: left;
+}
+#solform {
+  width: 50%;
+  float: left;
+  padding-right: 0.5rem;
+}
+#sagform {
+  width: 50%;
+  float: right;
+  padding-left: 0.5rem;
+}
+.form-control {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  margin: 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #dbe0e6;
+}
+.formp {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  font-weight: 500;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+}
+input[type="submit"] {
+  background-color: #2d666b;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  margin-left: 0.8rem;
+}
+#services {
+  background-color: #fdf8f2;
+  padding: 2rem;
+  text-align: center;
+}
+.service {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  padding: 1rem;
+  border: 1px solid rgb(246, 249, 248);
+  display: inline-block;
+  width: 25rem;
+  height: 20rem;
+  text-align: center;
+  gap: 1rem;
+}
+.card {
+  width: 20rem;
+  height:18rem;
+  border: 1px solid rgb(246, 249, 248);
+  padding: 0;
+  display: inline-block;
+
+}
+.baslikcard {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1b73ba;
+  margin-top: 1.3rem;
+}
+.mesaj {
+  color: #0c0d0f;
+  font-weight: 800;
+  font-style: italic;
+}
+
+h3 { color: #1b73ba;}
+
+
+
+
+@media (max-width:991px) {
+  html {
+    font-size: 60%;
+  }
+  #header {
+   padding: 1rem 1.5rem;
+  }
+}
+@media (max-width:768px) {
+ 
+.nav-link {
+ position: absolute;
+ top: 95%;
+ background-color: #fff;
+ height: calc(100vh - 8rem);
+ width: 30rem;
+ box-shadow: 0px 20px 14px 0px rgba(0 0 0 /75%);
+ right: -100%;
+
+}
+.nav-link .active {
+  right: 2rem;
+}
+
+a { color:#0c0d0f;
+  display: block;
+ margin: 1rem;
+ padding:0.3rem ;
+ font-size: 1.5rem;
+}
+
+#menu-btn { display: inline-block;
+  display: block;
+  font-size: 1.5rem;
+  color: #1b73ba;
+  cursor: pointer;
+} }
