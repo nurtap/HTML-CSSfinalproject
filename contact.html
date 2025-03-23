@@ -47,6 +47,7 @@
             <p class="formp">Sormak istediğiniz soruları formu doldurarak bizlere sorabilirsiniz. </p>
 
                     <div id="iletisimopak">
+                        <form action="iletisim.php" method="POST">
                         <div id="formgroup">
                             <div id="solform">
                                 <input type="text" name="isim" placeholder="Ad Soyad" required class="form-control"><input type="text" name="tel" placeholder="Telefon Numarası" required class="form-control">
@@ -55,7 +56,7 @@
 
                             <textarea name="mesaj" id="mesaj" cols="30" rows="10" placeholder="Mesajınız" required class="form-control"></textarea>
                             <input type="submit" value="Gönder">
-                            
+                            </form>
                         </div>
                         <div id="adres">
                             <h4>Adres:</h4>
