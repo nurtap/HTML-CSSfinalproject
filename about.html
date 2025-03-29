@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>
       Hakkımızda – Fizyoterapist Nurtap Özdemir – Yoga Eğitmeni – Sinir Sistemi
@@ -18,8 +19,12 @@
   </head>
   <body>
     <header id="header">
-      <img class="logo" src="../image/fzt.logo.png" alt="Fzt. Nurtap Özdemir" />
-      <nav>
+      <img class="logo" src="./images/fzt.logo.png" alt="Fzt. Nurtap Özdemir" />
+      <nav class="menu">
+
+        <input type="checkbox" id="menu-toggle" />
+  <label for="menu-toggle" id="menu-btn">☰</label> <!-- Hamburger menu -->
+  
         <ul>
           <li><a class="nav-link" href="index.html">Anasayfa</a></li>
           <li><a class="nav-link" href="about.html">Hakkımızda</a></li>
@@ -27,6 +32,9 @@
           <li><a class="nav-link" href="contact.html">İletișim</a></li>
         </ul>
       </nav>
+      <div class="button">
+        <button id="menu-btn"><i class="fas fa-bars"></i></button>
+    </div>
     </header>
 
     <section>
