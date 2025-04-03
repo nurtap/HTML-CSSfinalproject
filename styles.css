@@ -117,13 +117,6 @@ ul {
   height: 50rem;
 
 }
-@media screen and (max-width: 700px) {
-  #about {
-    height: 80rem;
-  }
-  
-}
-/* Icould not make the height of the about section responsive. I tried to use media query but it did not work. */
 
     
 h1 {
@@ -285,8 +278,8 @@ input[type="submit"] {
 }
 #services {
   background-color: #fdf8f2;
-  padding: 2rem;
   text-align: center;
+  padding: 1rem;
 }
 .service {
   margin-top: 1rem;
@@ -297,7 +290,7 @@ input[type="submit"] {
   width: 25rem;
   height: 20rem;
   text-align: center;
-  gap: 1rem;
+  
 }
 .card {
   width: 20rem;
@@ -334,30 +327,42 @@ h3 { color: #1b73ba;}
 }
 @media (max-width:768px) {
  
-.nav-link {
+.nav-link { 
  position: absolute;
- top: 95%;
+ top:5%;
  background-color: #fff;
- height: calc(100vh - 8rem);
  width: 30rem;
  box-shadow: 0px 20px 14px 0px rgba(0 0 0 /75%);
- right: -100%;
-
+ transform: scaleY(1);
+ display: block;
 }
-.nav-link .active {
-  right: 2rem;
-}
-
-a { color:#0c0d0f;
-  display: block;
- margin: 1rem;
- padding:0.3rem ;
- font-size: 1.5rem;
+ .active {
+  transform: scaleY(1);
 }
 
-#menu-btn { display: inline-block;
+#menu-btn {
   display: block;
   font-size: 1.5rem;
   color: #1b73ba;
   cursor: pointer;
-} }
+}
+
+a { color:#2a4774;
+  display: none;
+ padding:0.3rem ;
+ font-size: 0.5rem;
+
+}
+
+#menu-btn { 
+  display: block;
+  font-size: 1.5rem;
+  color: #1b73ba;
+  cursor: pointer;
+} 
+#anasayfa {
+  height: 40rem;
+  width:100%;
+  background-attachment: unset;
+}
+}
