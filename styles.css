@@ -39,7 +39,7 @@ ul {
   align-items: center;
 }
 .logo {
- height: 5rem;
+ height: 6.5rem;
 }
 
 .nav-link {
@@ -312,7 +312,8 @@ input[type="submit"] {
   font-style: italic;
 }
 
-h3 { color: #1b73ba;}
+h3 { color: #1b73ba;
+}
 
 
 
@@ -332,30 +333,21 @@ h3 { color: #1b73ba;}
  top:5%;
  background-color: #fff;
  width: 30rem;
- box-shadow: 0px 20px 14px 0px rgba(0 0 0 /75%);
- transform: scaleY(1);
- display: block;
-}
- .active {
-  transform: scaleY(1);
+ box-shadow: 0px 20px 14px 0px rgba(151, 149, 149, 0.75);
+display: block;
+ 
 }
 
-#menu-btn {
-  display: block;
-  font-size: 1.5rem;
-  color: #1b73ba;
-  cursor: pointer;
-}
 
-a { color:#2a4774;
-  display: none;
- padding:0.3rem ;
+a { color:#265fb4;
+  display:none;
+  padding:0.2rem ;
  font-size: 0.5rem;
 
 }
 
 #menu-btn { 
-  display: block;
+  display: none;
   font-size: 1.5rem;
   color: #1b73ba;
   cursor: pointer;
@@ -365,4 +357,47 @@ a { color:#2a4774;
   width:100%;
   background-attachment: unset;
 }
+section {
+  margin-bottom: 4rem; /* Increase spacing for smaller screens */
+}
+
+footer {
+  padding-top: 3rem; /* Add more padding for clarity */
+}
+
+/* Ensure no floating elements cause overlap */
+.left, .right {
+  float: none; /* Disable float on small screens */
+  width: 100%; /* Make elements stack vertically */
+  margin-top: 1rem;
+  margin:auto;
+}
+#about{
+  height: auto;
+  padding: 2rem;
+}
+
+  #solform {
+    width: 50%;
+    float: none;
+    padding: 0.5rem;
+  }
+  #sagform {
+    width: 50%;
+    float: none;
+    
+  }
+  .form-control {
+    width: 60%;
+    
+  }
+  input[type="submit"] {
+  padding: 1rem 2rem;
+  display: flex;
+
+  }
+  .logo {
+    height:5rem;
+   }
+   
 }
